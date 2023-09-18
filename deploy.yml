@@ -4,13 +4,13 @@
   vars:
     compose_directory: /data/minetest.ch
   tasks:
-    - name: Checkout git master
+    - name: Checkout git main
       ansible.builtin.git:
         repo: https://github.com/BuckarooBanzay/minetest.ch
         dest: "{{ compose_directory }}"
         single_branch: yes
         force: yes
-        version: master
+        version: main
 
     - name: Template docker-compose
       template:
