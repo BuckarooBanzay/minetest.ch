@@ -1,0 +1,1 @@
+Simple landing page for https://minetest.ch

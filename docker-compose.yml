@@ -1,0 +1,29 @@
+version: "2"
+
+services:
+ nginx:
+  image: nginx:1.25.2
+  networks:
+   - terminator
+   - default
+  restart: always
+  labels:
+    - "traefik.enable=true"
+    - "traefik.docker.network=terminator"
+    - "traefik.http.routers.minetest-ch.rule=Host(`minetest.ch`)"
+    - "traefik.http.services.minetest-ch.loadbalancer.server.port=80"
+    - "traefik.http.routers.minetest-ch.entrypoints=websecure"
+    - "traefik.http.routers.minetest-ch.tls.certresolver=default"
+  volumes:
+   - "./data/nginx/nginx.conf:/etc/nginx/nginx.conf:ro"
+   - "./html:/html"
+  logging:
+   options:
+    max-size: 50m
+
+volumes:
+  postgres_socket: {}
+
+networks:
+ terminator:
+  external: true
