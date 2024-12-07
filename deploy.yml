@@ -18,11 +18,9 @@
         dest: "{{compose_directory}}/docker-compose.yml"
 
     - name: Create and start services
-      community.general.docker_compose:
-        project_src: "{{ compose_directory }}"
-        pull: yes
-        build: yes
-        remove_orphans: yes
+      shell:
+        cmd: "docker-compose up -d --remove-orphans"
+        chdir: "{{ compose_directory }}"
 
     - name: Reload nginx config
       shell:
