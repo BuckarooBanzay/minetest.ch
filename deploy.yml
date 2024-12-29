@@ -6,7 +6,7 @@
   tasks:
     - name: Checkout git main
       ansible.builtin.git:
-        repo: https://github.com/BuckarooBanzay/luanti.ch
+        repo: https://github.com/minetest-ch/luanti.ch
         dest: "{{ compose_directory }}"
         single_branch: yes
         force: yes
