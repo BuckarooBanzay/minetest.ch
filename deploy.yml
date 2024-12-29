@@ -2,20 +2,15 @@
 - hosts: all
   remote_user: root
   vars:
-    compose_directory: /data/minetest.ch
+    compose_directory: /data/luanti.ch
   tasks:
     - name: Checkout git main
       ansible.builtin.git:
-        repo: https://github.com/BuckarooBanzay/minetest.ch
+        repo: https://github.com/BuckarooBanzay/luanti.ch
         dest: "{{ compose_directory }}"
         single_branch: yes
         force: yes
         version: main
-
-    - name: Template docker-compose
-      template:
-        src: "docker-compose.yml"
-        dest: "{{compose_directory}}/docker-compose.yml"
 
     - name: Create and start services
       shell:

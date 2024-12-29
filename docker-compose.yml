@@ -10,13 +10,29 @@ services:
   labels:
     - "traefik.enable=true"
     - "traefik.docker.network=terminator"
+    - "traefik.http.routers.luanti-ch.rule=Host(`luanti.ch`)"
+    - "traefik.http.services.luanti-ch.loadbalancer.server.port=80"
+    - "traefik.http.routers.luanti-ch.entrypoints=websecure"
+    - "traefik.http.routers.luanti-ch.tls.certresolver=default"
+  volumes:
+   - "./nginx.conf:/etc/nginx/nginx.conf:ro"
+   - "./html:/html"
+
+ redirect:
+  image: nginx:1.25.2
+  networks:
+   - terminator
+   - default
+  restart: always
+  labels:
+    - "traefik.enable=true"
+    - "traefik.docker.network=terminator"
     - "traefik.http.routers.minetest-ch.rule=Host(`minetest.ch`)"
     - "traefik.http.services.minetest-ch.loadbalancer.server.port=80"
     - "traefik.http.routers.minetest-ch.entrypoints=websecure"
     - "traefik.http.routers.minetest-ch.tls.certresolver=default"
   volumes:
-   - "./nginx.conf:/etc/nginx/nginx.conf:ro"
-   - "./html:/html"
+   - "./redirect.conf:/etc/nginx/conf.d/default.conf:ro"
 
 networks:
  terminator:

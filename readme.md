@@ -1,4 +1,4 @@
-Simple landing page for https://minetest.ch
+Simple landing page for https://luanti.ch
 
 # License
 
