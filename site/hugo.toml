@@ -1,7 +1,6 @@
 baseURL = 'https://luanti.ch/'
 languageCode = 'en-us'
 title = 'luanti.ch'
-theme = 'hyde'
 
 # https://themes.gohugo.io/themes/hyde/
 # https://gohugo.io/content-management/organization/
