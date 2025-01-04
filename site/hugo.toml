@@ -1,0 +1,17 @@
+baseURL = 'https://luanti.ch/'
+languageCode = 'en-us'
+title = 'luanti.ch'
+theme = 'hyde'
+
+# https://themes.gohugo.io/themes/hyde/
+# https://gohugo.io/content-management/organization/
+
+[Menus]
+  main = [
+      {Name = "Github", URL = "https://github.com/username/"},
+      {Name = "LinkedIn", URL = "https://www.linkedin.com/in/username/"}
+  ]
+
+[params]
+  description = "Your custom description"
+  themeColor = "theme-base-09"
