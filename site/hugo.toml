@@ -7,8 +7,9 @@ title = 'luanti.ch'
 
 [Menus]
   main = [
-      {Name = "Github", URL = "https://github.com/username/"},
-      {Name = "LinkedIn", URL = "https://www.linkedin.com/in/username/"}
+    {Name = "Hosting", URL = "/hosting"},
+    {Name = "Github", URL = "https://github.com/username/"},
+    {Name = "LinkedIn", URL = "https://www.linkedin.com/in/username/"}
   ]
 
 [params]
