@@ -7,8 +7,6 @@ description: Production grade Luanti/Minetest hosting with first-class web-based
 
 ![Hosting icon](/images/hosting/icon.png)
 
-# Luanti/Minetest hosting
-
 Production grade Luanti/Minetest hosting with first-class web-based management.
 
 * Management platform: [hosting.minetest.ch 🔗](https://hosting.minetest.ch)
