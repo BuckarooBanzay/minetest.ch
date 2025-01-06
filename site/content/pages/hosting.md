@@ -9,7 +9,7 @@ description: Production grade Luanti/Minetest hosting with first-class web-based
 
 Production grade Luanti/Minetest hosting with first-class web-based management.
 
-* Management platform: [hosting.minetest.ch 🔗](https://hosting.minetest.ch)
+* Management platform: [hosting.luanti.ch 🔗](https://hosting.luanti.ch)
 * Join the [discord 🔗](https://discord.gg/Xj62fUbQkn) server
 
 # Features
@@ -66,10 +66,10 @@ First class [mapserver 🔗](https://github.com/minetest-mapserver/mapserver) in
 ## Wide choice of servers and locations
 
 * Available locations: Germany 🇩🇪, Finland 🇫🇮 and United States 🇺🇸
-* Run multiple minetest-engines on a single server
+* Run multiple luanti-engines on a single server
 
 ## Open source
 
 * All the code is open source
-* [hosting manager 🔗](https://github.com/minetest-hosting/mt-hosting-manager): responsible for provisioning, setup and billing
+* [hosting manager 🔗](https://github.com/luanti-hosting/mt-hosting-manager): responsible for provisioning, setup and billing
 * [mtui 🔗](https://github.com/minetest-go/mtui): web interface for luanti server management
