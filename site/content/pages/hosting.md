@@ -2,6 +2,7 @@
 title: 'Luanti/Minetest hosting'
 images:
 - /images/hosting/icon.png
+description: Production grade Luanti/Minetest hosting with first-class web-based management
 ---
 
 ![Hosting icon](/images/hosting/icon.png)

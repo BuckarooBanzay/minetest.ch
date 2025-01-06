@@ -1,3 +1,9 @@
+---
+title: 'luanti.ch'
+images:
+- /images/hosting/icon.png
+description: Luanti (formerly minetest) projects and services
+---
 
 Luanti (formerly minetest) projects and services
 
