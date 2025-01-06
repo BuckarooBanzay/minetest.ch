@@ -20,7 +20,7 @@ Every configuration-task can be done in the web interface, even playing is possi
 
 ![Create node](/images/hosting/create-node.png)
 
-* Create serves with just a few clicks
+* Create servers with just a few clicks
 * IPv6 support by default
 * Secured with TLS (the management interface)
 * DDoS protection out of the box
@@ -44,10 +44,17 @@ Every configuration-task can be done in the web interface, even playing is possi
 * Create backups in zip-file format and store or deploy them on your own machine
 * Restore from previously taken backups
 
-## Third-party services
+## Mapserver
 
-* Mapserver
-* Chatbridge
+![mapserver](/images/hosting/mapserver.png)
+
+First class [mapserver 🔗](https://github.com/minetest-mapserver/mapserver) integration
+
+## Chatbridge
+
+![chatbridge](/images/hosting/chatbridge.png)
+
+* Chatbridge integration with the [beerchat 🔗](https://content.luanti.org/packages/mt-mods/beerchat/) mod and [matterbridge 🔗](https://github.com/42wim/matterbridge) service
 
 ## Manage your server fleet
 
