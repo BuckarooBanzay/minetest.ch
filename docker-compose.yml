@@ -16,7 +16,7 @@ services:
     - "traefik.http.routers.luanti-ch.tls.certresolver=default"
   volumes:
    - "./nginx.conf:/etc/nginx/nginx.conf:ro"
-   - "./html:/html"
+   - "./site/public:/html"
 
  redirect:
   image: nginx:1.25.2
@@ -33,6 +33,15 @@ services:
     - "traefik.http.routers.minetest-ch.tls.certresolver=default"
   volumes:
    - "./redirect.conf:/etc/nginx/conf.d/default.conf:ro"
+
+ hugo:
+  image: hugomods/hugo:reg-ci-0.140.2
+  restart: "no"
+  working_dir: /site
+  volumes:
+   - "./site:/site"
+  command: "build --baseURL https://luanti.ch/"
+
 
 networks:
  terminator:

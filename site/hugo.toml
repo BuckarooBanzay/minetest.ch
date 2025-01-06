@@ -8,9 +8,9 @@ title = 'luanti.ch'
 [Menus]
   main = [
     {Name = "Hosting", URL = "/pages/hosting"},
-    {Name = "Github", URL = "https://github.com/luanti-ch"}
+    {Name = "Github 🔗", URL = "https://github.com/luanti-ch"}
   ]
 
 [params]
-  description = "luanti.ch startpage"
+  description = "luanti projects and services"
   themeColor = "theme-base-09"

@@ -1,6 +1,69 @@
+---
+title: 'Luanti/Minetest hosting'
+images:
+- /images/hosting/icon.png
+---
 
-# Hosting
+![Hosting icon](/images/hosting/icon.png)
 
-![Hosting icon](/images/hosting.png)
+# Luanti/Minetest hosting
 
-Link: [Hosting](https://hosting.minetest.ch)
+Production grade Luanti/Minetest hosting with first-class web-based management.
+
+* Management platform: [hosting.minetest.ch 🔗](https://hosting.minetest.ch)
+* Join the [discord 🔗](https://discord.gg/Xj62fUbQkn) server
+
+# Features
+
+Every configuration-task can be done in the web interface, even playing is possible with the help of the luanti [wasm-client 🔗](https://github.com/paradust7/minetest-wasm)
+
+## Easy server provisioning
+
+![Create node](/images/hosting/create-node.png)
+
+* Create serves with just a few clicks
+* IPv6 support by default
+* Secured with TLS (the management interface)
+* DDoS protection out of the box
+* Free *.minetest.ch domain included or bring own
+
+## Server management web-interface
+
+![mod-management](/images/hosting/mod-management.png)
+
+* Use the wizard to set up your server or change every setting you want
+* Easy mod management with ContentDB and Git support
+* Player- and Ban-Management out of the box
+* Integrations for SkinsDB and ingame Mail available
+* Execute chat-commands or inject lua-code through the web-interface
+* Chat with your players
+
+## Backup and restore
+
+![backup-restore](/images/hosting/backup-restore.png)
+
+* Create backups in zip-file format and store or deploy them on your own machine
+* Restore from previously taken backups
+
+## Third-party services
+
+* Mapserver
+* Chatbridge
+
+## Manage your server fleet
+
+![mgmt-overview](/images/hosting/mgmt-overview.png)
+
+* Multiple servers can be installed on a single node
+* Gives you freedom to distribute low- and high-load servers accordingly
+
+## Wide choice of servers and locations
+
+* Available locations: Germany 🇩🇪, Finland 🇫🇮 and United States 🇺🇸
+* Run multiple minetest-engines on a single server
+
+## Open source
+
+* All the code is open source
+* [hosting manager 🔗](https://github.com/minetest-hosting/mt-hosting-manager): responsible for provisioning, setup and billing
+* [mtui 🔗](https://github.com/minetest-go/mtui): web interface for luanti server management
