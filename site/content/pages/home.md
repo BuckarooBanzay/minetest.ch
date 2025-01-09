@@ -19,8 +19,8 @@ Luanti (formerly minetest) projects and services
 
 * [Pandorabox 🔗](https://pandorabox.io)
 * [Bananaland 🔗](https://bananaland.minetest.ch)
-* [Mesecons lab 🔗](https://meseconslab.minetest.ch)
-* [Super sam 🔗](https://supersam.minetest.ch)
+* [Mesecons lab 🔗](https://meseconslab.luanti.ch)
+* [Super sam 🔗](https://supersam.luanti.ch)
 
 
 ## External links
