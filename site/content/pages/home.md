@@ -17,7 +17,7 @@ Luanti (formerly minetest) projects and services
 
 ## Public server hosting
 
-* [Pandorabox 🔗](https://pandorabox.io)
+* [Pandorabox](../pandorabox)
 * [Bananaland 🔗](https://bananaland.minetest.ch)
 * [Mesecons lab 🔗](https://meseconslab.luanti.ch)
 * [Super sam 🔗](https://supersam.luanti.ch)

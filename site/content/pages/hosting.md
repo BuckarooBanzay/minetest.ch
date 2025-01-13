@@ -48,7 +48,7 @@ Every configuration-task can be done in the web interface, even playing is possi
 
 ![mapserver](/images/hosting/mapserver.png)
 
-First class [mapserver 🔗](https://github.com/minetest-mapserver/mapserver) integration
+[mapserver 🔗](https://github.com/minetest-mapserver/mapserver) integration
 
 ## Chatbridge
 
