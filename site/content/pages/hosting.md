@@ -24,7 +24,7 @@ Every configuration-task can be done in the web interface, even playing is possi
 * IPv6 support by default
 * Secured with TLS (the management interface)
 * DDoS protection out of the box
-* Free *.hosting.luanti.ch domain included or bring own
+* Free *.hosting.luanti.ch domain included or bring your own
 
 ## Server management web-interface
 
