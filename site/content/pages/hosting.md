@@ -9,8 +9,7 @@ description: Production grade Luanti/Minetest hosting with first-class web-based
 
 Production grade Luanti/Minetest hosting with first-class web-based management.
 
-* Management platform: [hosting.luanti.ch 🔗](https://hosting.luanti.ch)
-* Join the [discord 🔗](https://discord.gg/Xj62fUbQkn) server
+{{< button link="https://hosting.luanti.ch" text="Open the management platform 🔗" >}}
 
 # Features
 
@@ -67,6 +66,11 @@ Every configuration-task can be done in the web interface, even playing is possi
 
 * Available locations: Germany 🇩🇪, Finland 🇫🇮 and United States 🇺🇸
 * Run multiple luanti-engines on a single server
+
+## Support
+
+* Join the [discord 🔗](https://discord.gg/Xj62fUbQkn) server
+* Mail the [support](mailto:hosting@luanti.ch)
 
 ## Open source
 
